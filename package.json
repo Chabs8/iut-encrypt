@@ -1,0 +1,35 @@
+{
+  "name": "@baptistec/iut-encrypt",
+  "version": "1.0.0",
+  "description": "Module de cryptage de mots de passe",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chabs8/iut-encrypt.git"
+  },
+  "keywords": [
+    "encrypt",
+    "sha1",
+    "password",
+    "security"
+  ],
+  "author": "Baptiste Chabannier <baptiste.chabannier@etu.unilim.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chabs8/iut-encrypt/issues"
+  },
+  "homepage": "https://github.com/Chabs8/iut-encrypt#readme"
+}
