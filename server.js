@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use('/api/movies', movieRoutes); // utiliser les routes de movie
+app.use('/', movieRoutes); // utiliser les routes de movie
 
 const PORT = process.env.PORT || 3000;
 
